@@ -1,0 +1,54 @@
+@import '../../../styles/settings.scss';
+
+.root {
+  padding: 30px 5%;
+  font-family: $font-second;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: $font-color-first;
+  background-color: $bg-dark;
+  display: flex;
+  flex-wrap: wrap;
+
+  .copyright, .socialIcons, .empty {
+    display: flex;
+    align-items: center;
+  }
+
+  .copyright {
+    padding: 10px 0;
+    flex: 2 1 0;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .empty {
+    flex: 2 1 0;
+    justify-content: flex-end;
+  }
+
+  .socialIcons {
+    padding: 10px 0;
+    flex: 1 1 0;
+    justify-content: center;
+  }
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+  .root {
+    .copyright, .socialIcons, .empty {
+      flex: 0 1 100%;
+    }
+
+    .socialIcons {
+      order: -1;
+    }
+
+    .copyright {
+      justify-content: center;
+    }
+  }
+}
