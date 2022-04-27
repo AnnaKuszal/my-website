@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.da4d94d8.css",
+    "main.js": "/my-website/static/js/main.301db7e8.js",
+    "static/js/787.5809834d.chunk.js": "/my-website/static/js/787.5809834d.chunk.js",
+    "static/media/hero-bg.jpg": "/my-website/static/media/hero-bg.3e7cfdbd03653e2b0395.jpg",
+    "static/media/skills-bg.jpg": "/my-website/static/media/skills-bg.ffb72cacb842429af0ce.jpg",
+    "static/media/hero-bg-sm.jpg": "/my-website/static/media/hero-bg-sm.4c653b3d6c6443989ce6.jpg",
+    "static/media/experience-bg-sm.jpg": "/my-website/static/media/experience-bg-sm.9962101ce517d9a55afb.jpg",
+    "static/media/skills-bg-sm.jpg": "/my-website/static/media/skills-bg-sm.8df1b3639bc9d54daa49.jpg",
+    "index.html": "/my-website/index.html",
+    "main.da4d94d8.css.map": "/my-website/static/css/main.da4d94d8.css.map",
+    "main.301db7e8.js.map": "/my-website/static/js/main.301db7e8.js.map",
+    "787.5809834d.chunk.js.map": "/my-website/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da4d94d8.css",
+    "static/js/main.301db7e8.js"
+  ]
+}
