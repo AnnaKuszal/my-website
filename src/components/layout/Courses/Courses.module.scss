@@ -1,0 +1,81 @@
+@import '../../../styles/settings.scss';
+
+.root {
+  position: relative;
+  display: flex;
+  opacity: 0;
+  transition: opacity 1s ease 0.2s;
+
+  &.visible {
+    opacity: 1;
+  }
+
+  .titleTile {
+    padding: 0 30px;
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      color: $font-dark;
+   }
+  }
+
+  .contentTile {
+    padding: 30px;
+    flex: 1 1 auto;
+    background-color: $black-opacity-02;
+
+    .elementsContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+    }
+  }
+}
+
+.root::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../../assets/skills-bg.jpg');
+  background-repeat: repeat;
+  background-position: 50% 0;
+  filter: grayscale(100%) brightness(170%);
+  z-index: -1;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+  .root {
+    flex-direction: column-reverse;
+
+    .titleTile {
+      .title {
+        font-size: $header-size-sm;
+      }
+    }
+
+    .contentTile {
+      padding: 0;
+    }
+  }
+
+  .root::before {
+    background-image: url('./../../../assets/skills-bg-sm.jpg');
+  }
+}
+
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  .root {
+    flex-direction: column-reverse;
+  }
+}
