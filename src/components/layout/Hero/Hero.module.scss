@@ -1,0 +1,203 @@
+@import '../../../styles/settings.scss';
+
+.root {
+  color: $font-color-first;
+  opacity: 0;
+  transition: opacity 1s ease 0.2s;
+
+  &.visible {
+    opacity: 1;
+  }
+
+  .first {
+    position: relative;
+    display: grid;
+    grid-template-columns: 5% 1fr 70px 35px 100px 100px 60px 1fr 5%;
+    grid-template-rows:    35px auto 35px 157px 90px 90px auto 35px 1fr 35px;
+
+    .heroInfo {
+      grid-column: 1 / 9;
+      grid-row: 2 / 3;
+      align-self: center;
+      padding: 0 20px;
+      background-color: $black-opacity-07;
+      color: $font-color-first;
+
+      .title, .subtitle {
+        margin: 0;
+        font-size: 8rem;
+      }
+
+      .subtitle {
+        font-size: 4rem;
+      }
+    }
+
+    .socialIcons {
+      grid-column: 3 / 4;
+      grid-row: 4 / 5;
+      overflow: hidden;
+      background-color: $black-opacity-07;
+      position: relative;
+      z-index: 1;
+    }
+
+    .photoContainer {
+      position: relative;
+      grid-column: 8 / 9;
+      grid-row: 4 / 8;
+
+      .photoWrapper {
+        position: absolute;
+        top: 0;
+        right: 10%;
+        height: 400px;
+        width: 400px;
+      }
+
+      .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 35%;
+        opacity: 0;
+        transition: opacity 2s ease 0.2s;
+
+        &.visible {
+          opacity: 1;
+        }
+      }
+    }
+
+    .heroDescr {
+      position: relative;
+      grid-column: 2 / 7;
+      grid-row: 6 / 8;
+      align-self: start;
+      margin-top: 30px;
+      padding: 10px 15px;
+      font-style: italic;
+      background-color: $black-opacity-07;
+      z-index: 1;
+
+      .p_Tooltip {
+        position: relative;
+
+        .tooltip {
+          position: absolute;
+          padding: 0 5px;
+          font-size: 1.6rem;
+          color: black;
+          background-color: $bg-color-first;
+          top: -90%;
+          right: 0;
+          opacity: 0;
+        }
+      }
+
+      .p_Tooltip .infoSpan {
+        text-decoration: underline;
+        padding-left: 2px;
+        cursor: pointer;
+
+        &:hover {
+          color: $font-color-second;
+
+          .tooltip {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .profile {
+      grid-column: 1 / 10;
+      grid-row: 9 / 10;
+      align-self: start;
+      padding: 0 5% 0;
+      background-color: $black-opacity-07;
+
+      .contentTile {
+        padding: 30px;
+      }
+    }
+  }
+
+  .first::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./../../../assets/hero-bg.jpg');
+    background-repeat: repeat;
+    background-position: 50% 0;
+    filter: sepia(80%);
+    opacity: .75;
+    z-index: -1;
+  }
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (min-width: 320px) and (max-width: 499px) {
+  .root {
+
+    .first {
+      grid-template-columns: 5% 1fr 70px 1fr 100px 100px 5% 1fr 5%;
+      grid-template-rows:    25px auto 25px 157px 60px 60px auto 25px 1fr 25px;
+
+      .heroInfo {
+        .title {
+         font-size: 6rem;
+        }
+
+        .subtitle {
+          font-size: 3rem;
+        }
+      }
+
+      .photoContainer {
+        .photoWrapper {
+          right: 0;
+          height: 240px;
+          width: 240px;
+        }
+      }
+
+      .heroDescr {
+        grid-column: 2 / 8;
+
+        padding: 0 15px;
+        line-height: 1.6;
+
+        margin-top: 0;
+      }
+
+      .profile {
+        padding: 0;
+
+        .contentTile {
+
+          padding: 30px 15px 30px 30px;
+
+          .contentList {
+            padding-left: 20px;
+          }
+        }
+      }
+    }
+
+    .first::before {
+      background-image: url('./../../../assets/hero-bg-sm.jpg');
+      background-repeat: repeat-y;
+      background-position: 50% 20%;
+    }
+  }
+}
+
+
