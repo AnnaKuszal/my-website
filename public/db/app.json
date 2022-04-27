@@ -1,0 +1,302 @@
+{
+  "profile": [
+    {
+    "paragraphs": {
+      "paragraph_1": "I'm a junior frontend developer with two years of non-commercial experience.",
+      "paragraph_2": "In March 2022 I've successfully completed the ",
+      "paragraph_3": "I'm looking for a job opportunity to join my interests with business environment.",
+      "paragraph_4": "I would like to work on improving Web solutions for better user experience. This is why:",
+      "programName": "Dare IT Mentoring Program*.",
+      "notice": "*Dare IT supports women in starting and developing their career in the IT industry"
+    },
+    "listItems": [
+      "I learn best practices to keep my code clean and maintainable",
+      "I like simple structures and components easy to test",
+      "I’m interested in Atomic Design",
+      "I know SOLID principles basics"
+    ],
+    "src": "images/owner-alpha-sepia.png"
+    }
+  ],
+  "skills": [
+    {
+      "id": "technical skills",
+      "technicals": [
+        {
+          "id": 1,
+          "level": "Intermediate",
+          "technologies": [
+            "JavaScript (ES6)",
+            "HTML, CSS, Sass, RWD",
+            "Bootstrap, Material UI",
+            "Git"
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Beginner",
+          "technologies": [
+            "React, Redux, Express"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "skills": [
+        "English – C1",
+        "French – B2"
+      ]
+    },
+    {
+      "id": "additional skills",
+      "skills": [
+        "Working by project lifecycle phases",
+        "Communication and presentation skills",
+        "Speaking in public",
+        "Employer Branding",
+        "Writing texts",
+        "Customer service"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "date": "11/2021– 03/2022",
+      "title": "Frontend Mentee in Dare IT Mentoring Program",
+      "subtitle": "(Dare IT)",
+      "details": [
+        "Acquired essential hard & soft skills for a Junior Frontend Developer position;"
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2019 – 2020",
+      "title": "Administrative assistant in EU projects office",
+      "subtitle": "(FALCO)",
+      "details": [
+        "Managed project execution – assured timely phases closure;"
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2016 – 2018",
+      "title": "HR Specialist (Internal trainer & Communication assistant & HRM system tester)",
+      "subtitle": "(HUSQVARNA Poland Sp. z o.o.)",
+      "details": [
+        "Accomplished international User Acceptance Test for the new HRM platform – tested scenarios, data flow and functionalities correctness (role: tester);",
+        "Contributed to HRM system implementation process – translated content to Polish, reported on technical problems;",
+        "Wrote good quality instructions and user guides;",
+        "Communicated with international HR teams on a regular basis – role: local leader in HR remote projects and decision-making;"
+      ]
+    },
+    {
+      "id": 4,
+      "date": "2009 – 2016",
+      "title": "EU projects assistant & coordinator, Trainings management specialist",
+      "subtitle": "(Wektor Consulting; “LIFE” Szkolenia)",
+      "details": [
+        "Worked in a distributed team: managed remotely a group of trainers in a regional project;",
+        "Cooperated with customers to meet their expectations on training & consultancy services;"
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "date": "09/2019 - 06/2020",
+      "title": "Bootcamp Web Developer Plus - a course run by Codemy S.A., Wrocław",
+      "subtitle": "",
+      "details": [
+        "37 weekly modules + 9 weeks of individual work on 3 training projects designed to use acquired skills;",
+        "Individual weekly video meetings: 1-on-1 with supporting experienced developer;",
+        "Content: frontend and backend technologies (see: Technical skills section);",
+        "Individual project: building an administration panel view (and subpages);",
+        "Team project: developing online furniture store (and subpages) – Tasks: modify elements behavior, add functionality/images, RWD. Worked on JIRA, Github. Technologies: React.js, React Router, Redux;"
+      ]
+    },
+    {
+      "id": 2,
+      "date": "10/2016–07/2017",
+      "title": "Web Pages & Web Application Design and Development, Databases Build & Administration – foundations ",
+      "subtitle": "",
+      "details": [
+        "a course (440h) in frames of Adult vocational training (profession code: 351103) - state examination and certificate;"
+      ]
+    }
+  ],
+  "inspirations": [
+    {
+      "id": "books",
+      "label": "Books",
+      "description": "While learning programming, I have been using a great variety of resources. Below I put my favorite ones, where I get much knowledge from. At the beginning I got some information on a developer job and career from Polish software engineer’s book: Maciej Aniserowicz 'Zawód: Programista'. Other books that I currently work with are:",
+      "details": [
+        "Flavio Copes - 'JavaScript from ES5 to ESNext'",
+        "Flavio Copes - 'The React Handbook'",
+        "Robin Wieruch - 'The Road to learn React'",
+        "Robin Wieruch - 'Taming state in React'",
+        "Kirupa Chinnathambi - 'Learning React'",
+        "Jeff Sutherland - 'Scrum'"
+      ]
+    },
+    {
+      "id": "resources",
+      "label": "Dedicated resources",
+      "description": "Using good quality resources is the basic way of increasing my knowledge:",
+      "details": [
+        {
+          "name": "MDN Docs",
+          "url": "https://developer.mozilla.org/pl/"
+        },
+        {
+          "name": "CSS Tricks",
+          "url": "https://css-tricks.com/"
+        },
+        {
+          "name": "JavaScript Tutorial",
+          "url": "https://www.javascripttutorial.net/"
+        },
+        {
+          "name": "React resources",
+          "url": "https://reactresources.com/"
+        }
+      ]
+    },
+    {
+      "id": "blogs",
+      "label": "Technical blogs",
+      "description": "From time to time I need to have access to up-to-date articles on popular blogs:",
+      "details": [
+        {
+          "name": "Robin Wieruch - blog",
+          "url": "www.robinwieruch.de"
+        },
+        {
+          "name": "Medium.com/front-end-weekly",
+          "url": "https://medium.com/front-end-weekly"
+        },
+        {
+          "name": "Medium.com/geekculture",
+          "url": "https://medium.com/geekculture"
+        },
+        {
+          "name": "Pluralsight.com",
+          "url": "https://www.pluralsight.com/guides"
+        }
+      ]
+    },
+    {
+      "id": "channels",
+      "label": "YouTube channels",
+      "description": "For better understanding of concepts and mechanisms I follow some experienced developers’ videos where I’ve learned a lot:",
+      "details": [
+        {
+          "name": "Google Chrome Developers",
+          "url": "https://www.youtube.com/c/GoogleChromeDevelopers/videos"
+        },
+        {
+          "name": "Dave Gray",
+          "url": "https://www.youtube.com/c/DaveGrayTeachesCode/videos"
+        },
+        {
+          "name": "The Net Ninja",
+          "url": "https://www.youtube.com/c/TheNetNinja/video"
+        },
+        {
+          "name": "techsith",
+          "url": "https://www.youtube.com/c/Techsithtube/videos"
+        }
+      ]
+    },
+    {
+      "id": "courses",
+      "label": "Courses & tutorials",
+      "description": "When developing new skills I cannot do without some courses with well-done explanations and examples which I find here:",
+      "details": [
+        {
+          "name": "freeCodeCamp.org",
+          "url": "https://www.youtube.com/c/Freecodecamp/videos"
+        },
+        {
+          "name": "Traversy Media",
+          "url": "https://www.youtube.com/c/TraversyMedia/videos"
+        },
+        {
+          "name": "codeSTACKr",
+          "url": "https://www.youtube.com/c/codeSTACKr/videos"
+        },
+        {
+          "name": "dcode",
+          "url": "https://www.youtube.com/c/dcode-software/videos"
+        }
+      ]
+    }
+  ],
+  "latest": [
+    {
+      "subtitle": "Recruitment & dev career - podcasts, articles",
+      "description": "A website on developer's career that I recommend:",
+      "name": "devstyle.pl",
+      "url": "https://devstyle.pl/"
+    },
+    {
+      "subtitle": "Favorite developers on YouTube",
+      "description": "I appreciate enormously some fantastic guys and recommend strongly their channels:",
+      "name": "Kevin Powell on CSS",
+      "url": "https://www.youtube.com/kepowob/videos"
+    },
+    {
+      "subtitle": "CSS Grid deeper understanding",
+      "description": "Great explanations by Jen Simmons, a member of the CSS Working Group:",
+      "name": "Jen Simmons - layoutLand",
+      "url": "https://www.youtube.com/c/LayoutLand/videos"
+    },
+    {
+      "subtitle": "CSS design ideas",
+      "description": "Beautiful ideas and impressive works that showed me mind-blowing effects based on CSS:",
+      "name": "",
+      "url": "",
+      "links": [
+        {
+          "name": "css-awards.com",
+          "url": "https://css-awards.com/"
+        },
+        {
+          "name": "awwwards.com",
+          "url": "https://www.awwwards.com/"
+        },
+        {
+          "name": "bestcssaward.com",
+          "url": "https://www.bestcssaward.com/"
+        },
+        {
+          "name": "cssdesignawards.com",
+          "url": "https://www.cssdesignawards.com/"
+        },
+        {
+          "name": "csswinner.com",
+          "url": "https://www.csswinner.com/"
+        }
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "id": "linkedin",
+      "link": "https://www.linkedin.com/in/anna-kuszal/",
+      "icon": "fa-brands fa-linkedin"
+    },
+    {
+      "id": "github",
+      "link": "https://github.com/AnnaKuszal",
+      "icon": "fa-brands fa-github"
+    },
+    {
+      "id": "mail",
+      "link": "mailto:anna.kuszal@gmail.com",
+      "icon": "fa-solid fa-envelope-square"
+    }
+  ]
+}
+
