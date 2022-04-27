@@ -1,0 +1,29 @@
+@import '../../../styles/settings.scss';
+
+.root {
+  padding: 0 15px 15px;
+  flex: 0 1 100%;
+  color: $font-light;
+  background-color: $black-opacity-07;
+  overflow: hidden;
+
+  &.lightBg {
+  background-color: $white-opacity-06;
+  color: $font-dark;
+  font-weight: 500;
+}
+
+  .elementTitle {
+    color: $font-color-first;
+
+    &.lightTitle {
+      color: $font-dark;
+      font-weight: 700;
+      font-style: italic;
+    }
+  }
+
+  .list {
+    padding-left: 2rem;
+  }
+}
